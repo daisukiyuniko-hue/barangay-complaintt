@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 400" width="520" height="400" role="img"
+     aria-label="Illustration of residents working together on a clean, safe community">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e6f5ee"/>
+      <stop offset="1" stop-color="#f7fcfa"/>
+    </linearGradient>
+    <linearGradient id="h2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#17694c"/>
+      <stop offset="1" stop-color="#0b3d2e"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="520" height="400" rx="18" fill="url(#bg2)"/>
+  <circle cx="70" cy="58" r="24" fill="#fcd34d" opacity=".8"/>
+
+  <!-- hills -->
+  <path d="M0 250c70-42 122-46 176-16s116 20 176-8 112-18 168 12v162H0V250z" fill="#cfe7db"/>
+  <rect x="0" y="296" width="520" height="104" fill="#8fc9ac"/>
+
+  <!-- path -->
+  <path d="M120 400c40-58 92-84 160-84s122 26 158 84H120z" fill="#dcd3c3"/>
+
+  <!-- community building / covered court -->
+  <g>
+    <rect x="286" y="180" width="196" height="118" rx="6" fill="#fdf6e9" stroke="#cbb894" stroke-width="2"/>
+    <path d="M274 184 384 128l110 56H274z" fill="url(#h2)"/>
+    <g fill="#bfe6f5" stroke="#5f9c8f" stroke-width="1.5">
+      <rect x="304" y="206" width="34" height="28" rx="2"/>
+      <rect x="352" y="206" width="34" height="28" rx="2"/>
+      <rect x="400" y="206" width="34" height="28" rx="2"/>
+      <rect x="440" y="206" width="30" height="28" rx="2"/>
+    </g>
+    <rect x="360" y="248" width="46" height="50" rx="3" fill="#1f6f8b"/>
+  </g>
+
+  <!-- basketball hoop -->
+  <g>
+    <path d="M248 300V214" stroke="#6b7d8c" stroke-width="7" stroke-linecap="round"/>
+    <rect x="228" y="176" width="42" height="26" rx="3" fill="#f97316"/>
+    <rect x="234" y="180" width="30" height="18" rx="2" fill="#fff7ed" stroke="#ea580c" stroke-width="2"/>
+    <path d="M249 202v14M249 216l-11 12M249 216l11 12" stroke="#ea580c" stroke-width="2.5" fill="none"/>
+  </g>
+
+  <!-- clean-up crew: resident with broom -->
+  <g transform="translate(150 244)">
+    <ellipse cx="0" cy="94" rx="24" ry="7" fill="#0b3d2e" opacity=".12"/>
+    <rect x="-14" y="36" width="28" height="58" rx="13" fill="#0f766e"/>
+    <circle cx="0" cy="22" r="16" fill="#f2c49b"/>
+    <path d="M-16 20a16 16 0 0 1 32 0c0-15-6-21-16-21s-16 6-16 21z" fill="#3f2d1f"/>
+    <path d="M14 44l22 30" stroke="#8b5e3c" stroke-width="5" stroke-linecap="round"/>
+    <path d="M36 74l14 18" stroke="#f59e0b" stroke-width="12" stroke-linecap="round"/>
+    <rect x="-6" y="52" width="12" height="9" rx="1.5" fill="#ffffff" opacity=".9"/>
+  </g>
+
+  <!-- community volunteer with trash bin -->
+  <g transform="translate(238 258)">
+    <ellipse cx="0" cy="82" rx="21" ry="6" fill="#0b3d2e" opacity=".12"/>
+    <rect x="-12" y="32" width="24" height="50" rx="11" fill="#b45309"/>
+    <circle cx="0" cy="20" r="14" fill="#e8b98d"/>
+    <path d="M-14 18a14 14 0 0 1 28 0c0-13-5-18-14-18s-14 5-14 18z" fill="#1f2937"/>
+    <path d="M12 42l14-8" stroke="#e8b98d" stroke-width="6" stroke-linecap="round"/>
+    <rect x="24" y="18" width="24" height="26" rx="3" fill="#16a34a"/>
+    <rect x="24" y="18" width="24" height="5" rx="2" fill="#15803d"/>
+    <path d="M36 14v8M30 14h12" stroke="#15803d" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- child / youth playing ball -->
+  <g transform="translate(96 292)">
+    <ellipse cx="0" cy="52" rx="16" ry="5" fill="#0b3d2e" opacity=".12"/>
+    <rect x="-9" y="20" width="18" height="32" rx="8" fill="#1d4ed8"/>
+    <circle cx="0" cy="12" r="11" fill="#f2c49b"/>
+    <path d="M-11 10a11 11 0 0 1 22 0c0-10-4-14-11-14s-11 4-11 14z" fill="#111827"/>
+    <circle cx="60" cy="44" r="11" fill="#f97316"/>
+    <path d="M60 34v20M50 44h20" stroke="#c2410c" stroke-width="2"/>
+  </g>
+
+  <!-- trees -->
+  <g>
+    <rect x="482" y="270" width="9" height="50" rx="4" fill="#8b5e3c"/>
+    <circle cx="486" cy="260" r="25" fill="#2f8f5b"/>
+    <circle cx="468" cy="272" r="17" fill="#37a066"/>
+    <circle cx="504" cy="272" r="16" fill="#2b8053"/>
+  </g>
+
+  <!-- sign board -->
+  <g>
+    <rect x="46" y="252" width="9" height="46" rx="4" fill="#8b5e3c"/>
+    <rect x="10" y="222" width="80" height="36" rx="7" fill="#ffffff" stroke="#17694c" stroke-width="2.5"/>
+    <text x="50" y="238" font-family="Segoe UI, Arial, sans-serif" font-size="9.5" font-weight="800"
+          fill="#0b3d2e" text-anchor="middle">KEEP OUR</text>
+    <text x="50" y="251" font-family="Segoe UI, Arial, sans-serif" font-size="9.5" font-weight="800"
+          fill="#17694c" text-anchor="middle">BARANGAY CLEAN</text>
+  </g>
+
+  <!-- check badge -->
+  <g transform="translate(452 60)">
+    <circle cx="0" cy="0" r="30" fill="#1f8a63" opacity=".15"/>
+    <circle cx="0" cy="0" r="22" fill="#1f8a63"/>
+    <path d="M-9 0l7 7 12-14" stroke="#fff" stroke-width="5" fill="none"
+          stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

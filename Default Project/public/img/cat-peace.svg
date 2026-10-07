@@ -1,0 +1,7 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" role="img" aria-label="Peace and order">
+  <rect width="48" height="48" rx="11" fill="#e6f4ee"/>
+  <rect x="0.75" y="0.75" width="46.5" height="46.5" rx="10.5" fill="none" stroke="#b8e2d0" stroke-width="1.5"/>
+  <path d="M24 8l14 5v12c0 9-6 14.5-14 17-8-2.5-14-8-14-17V13l14-5z" fill="#1e3a8a"/>
+  <path d="M17.5 24l5 5 9-11" stroke="#ffffff" stroke-width="3.4" fill="none"
+        stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

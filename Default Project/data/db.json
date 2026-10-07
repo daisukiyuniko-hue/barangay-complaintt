@@ -1,0 +1,161 @@
+﻿{
+    "meta":  {
+                 "schemaVersion":  1,
+                 "createdAt":  "2026-10-07T04:17:00.4221811Z"
+             },
+    "users":  [
+                  {
+                      "id":  "usr_lyrwz8uXvAWE",
+                      "name":  "Barangay Administrator",
+                      "email":  "admin@barangay.gov.ph",
+                      "role":  "admin",
+                      "phone":  "0917 000 0000",
+                      "address":  "Barangay Hall, Purok 3",
+                      "active":  true,
+                      "createdAt":  "2026-10-07T04:17:00.5041998Z",
+                      "updatedAt":  "2026-10-07T04:17:00.5041998Z",
+                      "lastLoginAt":  "",
+                      "passwordSalt":  "SG25-k4BrYowfLSeecrJlQ",
+                      "passwordHash":  "D_6IKBr-pX4lV0mhnsnvsHScQS-7zbJNx1BiDdZMsFo",
+                      "passwordAlgorithm":  "PBKDF2-HMAC-SHA1",
+                      "passwordIterations":  120000,
+                      "passwordChangedAt":  "2026-10-07T04:17:01.3103911Z"
+                  },
+                  {
+                      "id":  "usr_HYYLZauCKyk8",
+                      "name":  "Juan Dela Cruz",
+                      "email":  "resident@barangay.gov.ph",
+                      "role":  "resident",
+                      "phone":  "0918 123 4567",
+                      "address":  "Purok 5, San Isidro",
+                      "active":  true,
+                      "createdAt":  "2026-10-07T04:17:01.3774065Z",
+                      "updatedAt":  "2026-10-07T04:17:01.3774065Z",
+                      "lastLoginAt":  "",
+                      "passwordSalt":  "58VvFRGco2ol7IFwnSp9SQ",
+                      "passwordHash":  "5XzDI-2FJbou5_o7YvjJwicAz3KYbn9N-54N9OjZsvY",
+                      "passwordAlgorithm":  "PBKDF2-HMAC-SHA1",
+                      "passwordIterations":  120000,
+                      "passwordChangedAt":  "2026-10-07T04:17:02.1681006Z"
+                  }
+              ],
+    "complaints":  [
+                       {
+                           "id":  "cmp_BHrTj-bNgfZM",
+                           "referenceNo":  "BCR-2026-0001",
+                           "title":  "Deep pothole in front of Barangay Hall",
+                           "description":  "There is a very deep pothole right in front of the Barangay Hall entrance. Several motorcycles have already fallen into it and it is very dangerous at night because there is no lighting there.",
+                           "category":  "Road \u0026 Infrastructure",
+                           "priority":  "Urgent",
+                           "status":  "In Review",
+                           "location":  "Main Road, front of Barangay Hall",
+                           "reporterId":  "usr_HYYLZauCKyk8",
+                           "reporterName":  "Juan Dela Cruz",
+                           "reporterEmail":  "resident@barangay.gov.ph",
+                           "reporterPhone":  "0918 123 4567",
+                           "adminNotes":  "Road crew scheduled to patch this week. Temporary warning signs installed.",
+                           "createdAt":  "2026-10-05T22:17:02.1931067Z",
+                           "updatedAt":  "2026-10-05T22:47:02.1931067Z",
+                           "updatedBy":  "usr_lyrwz8uXvAWE"
+                       },
+                       {
+                           "id":  "cmp_slqx8SjzyOnD",
+                           "referenceNo":  "BCR-2026-0002",
+                           "title":  "Streetlight not working since last week",
+                           "description":  "The streetlight at the corner of Purok 5 has not been working for about a week. At night the area becomes very dark and unsafe for pedestrians, especially for children going to school.",
+                           "category":  "Electricity \u0026 Utilities",
+                           "priority":  "Medium",
+                           "status":  "Pending",
+                           "location":  "Purok 5 corner",
+                           "reporterId":  "usr_HYYLZauCKyk8",
+                           "reporterName":  "Juan Dela Cruz",
+                           "reporterEmail":  "resident@barangay.gov.ph",
+                           "reporterPhone":  "0918 123 4567",
+                           "adminNotes":  "",
+                           "createdAt":  "2026-10-05T00:17:02.2356225Z",
+                           "updatedAt":  "2026-10-05T00:47:02.2356225Z",
+                           "updatedBy":  ""
+                       },
+                       {
+                           "id":  "cmp_RDpvkflrPEfq",
+                           "referenceNo":  "BCR-2026-0003",
+                           "title":  "Garbage pile up near the creek",
+                           "description":  "Garbage has been piling up near the creek for more than two weeks. It smells bad and flies are everywhere. When it rains the waste flows into the creek and affects the households downstream.",
+                           "category":  "Water \u0026 Sanitation",
+                           "priority":  "High",
+                           "status":  "Resolved",
+                           "location":  "Purok 2, near the creek",
+                           "reporterId":  "usr_HYYLZauCKyk8",
+                           "reporterName":  "Juan Dela Cruz",
+                           "reporterEmail":  "resident@barangay.gov.ph",
+                           "reporterPhone":  "0918 123 4567",
+                           "adminNotes":  "Waste collection schedule moved to twice a week. Area cleared on site.",
+                           "createdAt":  "2026-10-03T04:17:02.2496256Z",
+                           "updatedAt":  "2026-10-03T04:47:02.2496256Z",
+                           "updatedBy":  "usr_lyrwz8uXvAWE"
+                       },
+                       {
+                           "id":  "cmp_RbU0jjRgfEDb",
+                           "referenceNo":  "BCR-2026-0004",
+                           "title":  "Loud videoke every weekend past midnight",
+                           "description":  "Our neighbour plays loud videoke music every weekend until past midnight. We cannot sleep and our small children are already exhausted by school time.",
+                           "category":  "Noise \u0026 Nuisance",
+                           "priority":  "Medium",
+                           "status":  "In Review",
+                           "location":  "Purok 7",
+                           "reporterId":  "usr_HYYLZauCKyk8",
+                           "reporterName":  "Juan Dela Cruz",
+                           "reporterEmail":  "resident@barangay.gov.ph",
+                           "reporterPhone":  "0918 123 4567",
+                           "adminNotes":  "Barangay Peace and Order officer scheduled to mediate.",
+                           "createdAt":  "2026-10-01T08:17:02.2596278Z",
+                           "updatedAt":  "2026-10-01T08:47:02.2596278Z",
+                           "updatedBy":  "usr_lyrwz8uXvAWE"
+                       },
+                       {
+                           "id":  "cmp_FETi1NX1u1xv",
+                           "referenceNo":  "BCR-2026-0005",
+                           "title":  "Water supply interruption every afternoon",
+                           "description":  "Our water supply is cut off almost every afternoon from 1 PM to about 5 PM. This has been happening for three weeks already and it is very inconvenient for the households in our purok.",
+                           "category":  "Water \u0026 Sanitation",
+                           "priority":  "High",
+                           "status":  "Pending",
+                           "location":  "Purok 4",
+                           "reporterId":  "usr_HYYLZauCKyk8",
+                           "reporterName":  "Juan Dela Cruz",
+                           "reporterEmail":  "resident@barangay.gov.ph",
+                           "reporterPhone":  "0918 123 4567",
+                           "adminNotes":  "",
+                           "createdAt":  "2026-09-29T06:17:02.2646293Z",
+                           "updatedAt":  "2026-09-29T06:47:02.2646293Z",
+                           "updatedBy":  ""
+                       },
+                       {
+                           "id":  "cmp_uVlpJKiojahV",
+                           "referenceNo":  "BCR-2026-0006",
+                           "title":  "Broken railing on the basketball court",
+                           "description":  "One side of the basketball court railing is broken and hanging. Children play there every day and the sharp metal could badly hurt somebody if they run into it.",
+                           "category":  "Health \u0026 Safety",
+                           "priority":  "Urgent",
+                           "status":  "Resolved",
+                           "location":  "Barangay Sports Complex",
+                           "reporterId":  "usr_HYYLZauCKyk8",
+                           "reporterName":  "Juan Dela Cruz",
+                           "reporterEmail":  "resident@barangay.gov.ph",
+                           "reporterPhone":  "0918 123 4567",
+                           "adminNotes":  "Railing replaced with a new steel one. Court reopened.",
+                           "createdAt":  "2026-09-26T08:17:02.2736311Z",
+                           "updatedAt":  "2026-09-26T08:47:02.2736311Z",
+                           "updatedBy":  "usr_lyrwz8uXvAWE"
+                       }
+                   ],
+    "sessions":  [
+
+                 ],
+    "activityLog":  [
+
+                    ],
+    "counters":  {
+                     "complaint":  6
+                 }
+}

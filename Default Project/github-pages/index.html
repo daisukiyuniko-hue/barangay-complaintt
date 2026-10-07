@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Barangay Complaint &amp; Concern Reporting System</title>
+<meta name="description" content="Report concerns about your barangay online - roads, water, electricity, waste, noise, health and safety. Track every report from Pending to Resolved.">
+<meta name="theme-color" content="#0b3d2e">
+<meta name="color-scheme" content="light">
+<link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+<link rel="stylesheet" href="assets/css/styles.css">
+<link rel="canonical" href=".">
+</head>
+<body>
+
+<a class="skip-link" href="#view">Skip to main content</a>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <!-- The visible brand text already names this link, so no aria-label here:
+         an aria-label that differs from the visible text confuses screen readers. -->
+    <a class="brand" href="#/">
+      <span id="brandHost" style="display: contents;"></span>
+    </a>
+
+    <button class="nav-toggle" type="button" data-nav-toggle
+            aria-expanded="false" aria-controls="siteNav" aria-label="Toggle navigation menu">
+      <span class="nav-toggle-bars" aria-hidden="true"><span></span><span></span><span></span></span>
+      <span class="nav-toggle-text">Menu</span>
+    </button>
+
+    <nav class="site-nav" id="siteNav" data-nav-panel aria-label="Main navigation" hidden></nav>
+  </div>
+</header>
+
+<main id="view" class="main" aria-busy="true"></main>
+
+<!-- flash messages are rendered here so they survive every route change -->
+<div id="flashHost" class="container"></div>
+<div id="toastHost" class="container" style="position:fixed;top:76px;left:0;right:0;z-index:250;pointer-events:none;"></div>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <img class="brand-mark" src="assets/img/logo.svg" width="52" height="52" alt="">
+      <p class="footer-name">Barangay San Isidro</p>
+      <p class="footer-tagline">Complaint and Concern Reporting System &middot; City of Antipolo</p>
+      <p class="footer-tagline">A digital channel for faster, more transparent community action.</p>
+    </div>
+
+    <div class="footer-col">
+      <h3>What you can report</h3>
+      <ul class="footer-list">
+        <li>Road &amp; Infrastructure</li>
+        <li>Water &amp; Sanitation</li>
+        <li>Electricity &amp; Utilities</li>
+        <li>Health &amp; Safety</li>
+      </ul>
+      <ul class="footer-list" id="footerLinks"></ul>
+    </div>
+
+    <div class="footer-col">
+      <h3>Barangay office</h3>
+      <ul class="footer-list">
+        <li>Barangay Hall, Purok 3, San Isidro, Antipolo City</li>
+        <li>Hotline: +63 900 000 0000</li>
+        <li>barangay.sanisidro@example.gov.ph</li>
+        <li>Monday - Friday, 8:00 AM - 5:00 PM</li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h3>Account</h3>
+      <ul class="footer-list">
+        <li><a href="#/register">Create an account</a></li>
+        <li><a href="#/login">Sign in</a></li>
+        <li><a href="#/data">Manage stored data</a></li>
+        <li><a href="#/#faq">Frequently asked questions</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container footer-bottom">
+    <p>&copy; <span data-year>2026</span> Barangay San Isidro. All rights reserved.</p>
+    <p class="footer-privacy">Reports are visible only to you and to authorized barangay administrators.</p>
+  </div>
+</footer>
+
+<!-- confirmation dialog for destructive actions -->
+<div class="modal-backdrop" id="confirmModal" hidden role="dialog" aria-modal="true">
+  <div data-modal-backdrop></div>
+  <div class="modal">
+    <h2 class="modal-title" data-modal-title>Please confirm</h2>
+    <p class="modal-text" data-modal-text></p>
+    <div class="modal-actions">
+      <button class="btn btn-ghost" type="button" data-modal-cancel>Cancel</button>
+      <button class="btn btn-danger" type="button" data-modal-ok>Yes, delete</button>
+    </div>
+  </div>
+</div>
+
+<!-- shown while a password is being hashed -->
+<div class="busy-overlay" id="busyOverlay" hidden>
+  <div class="spinner" aria-hidden="true"></div>
+  <p>Working&hellip;</p>
+</div>
+
+<!-- Load order matters: core -> data -> security -> validation -> ui -> views -> router -->
+<script src="assets/js/crypto.js"></script>
+<script src="assets/js/store.js"></script>
+<script src="assets/js/auth.js"></script>
+<script src="assets/js/validate.js"></script>
+<script src="assets/js/ui.js"></script>
+<script src="assets/js/layout.js"></script>
+<script src="assets/js/views/errors.js"></script>
+<script src="assets/js/views/landing.js"></script>
+<script src="assets/js/views/auth.js"></script>
+<script src="assets/js/views/complaints.js"></script>
+<script src="assets/js/views/dashboard.js"></script>
+<script src="assets/js/views/users.js"></script>
+<script src="assets/js/views/data.js"></script>
+<script src="assets/js/router.js"></script>
+<script src="assets/js/app.js"></script>
+
+</body>
+</html>

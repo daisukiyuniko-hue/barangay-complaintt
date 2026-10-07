@@ -1,0 +1,9 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" role="img" aria-label="Electricity and utilities">
+  <rect width="48" height="48" rx="11" fill="#e6f4ee"/>
+  <rect x="0.75" y="0.75" width="46.5" height="46.5" rx="10.5" fill="none" stroke="#b8e2d0" stroke-width="1.5"/>
+  <circle cx="24" cy="26" r="15" fill="#0284c7"/>
+  <circle cx="24" cy="26" r="15" fill="none" stroke="#0369a1" stroke-width="2"/>
+  <rect x="18" y="24" width="12" height="8" fill="#e0f2fe"/>
+  <rect x="18" y="32" width="12" height="3" rx="1" fill="#0f172a"/>
+  <path d="M26 11l-7 9h5l-3 7 9-10h-5l2-6z" fill="#facc15" stroke="#ca8a04" stroke-width="1" stroke-linejoin="round"/>
+</svg>

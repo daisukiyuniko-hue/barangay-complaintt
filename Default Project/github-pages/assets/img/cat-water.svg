@@ -1,0 +1,8 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" role="img" aria-label="Water and sanitation">
+  <rect width="48" height="48" rx="11" fill="#e6f4ee"/>
+  <rect x="0.75" y="0.75" width="46.5" height="46.5" rx="10.5" fill="none" stroke="#b8e2d0" stroke-width="1.5"/>
+  <path d="M24 10c6 7 10 11.5 10 16a10 10 0 0 1-20 0c0-4.5 4-9 10-16z" fill="#0284c7"/>
+  <path d="M19.5 26a4.5 4.5 0 0 0 4.5 4.5" stroke="#bae6fd" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M24 30v6" stroke="#0f766e" stroke-width="3" stroke-linecap="round"/>
+  <path d="M18 38h12" stroke="#0f766e" stroke-width="3" stroke-linecap="round"/>
+</svg>

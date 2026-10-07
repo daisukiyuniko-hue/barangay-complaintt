@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Barangay seal">
+  <defs>
+    <linearGradient id="lg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#17694c"/>
+      <stop offset="1" stop-color="#0b3d2e"/>
+    </linearGradient>
+  </defs>
+  <circle cx="32" cy="32" r="30" fill="url(#lg)"/>
+  <circle cx="32" cy="32" r="25.5" fill="none" stroke="#ffffff" stroke-opacity=".55" stroke-width="1.4"/>
+  <!-- house / caparo -->
+  <path d="M32 15.5 15.5 27v1.5h33V27L32 15.5z" fill="#ffffff"/>
+  <rect x="19.5" y="29" width="25" height="3" rx="1" fill="#ffffff" opacity=".9"/>
+  <rect x="22" y="33" width="4" height="9" fill="#ffffff" opacity=".85"/>
+  <rect x="38" y="33" width="4" height="9" fill="#ffffff" opacity=".85"/>
+  <rect x="28" y="35" width="8" height="7" fill="#ffffff" opacity=".55"/>
+  <path d="M14 44h36v3.5H14z" fill="#ffffff" opacity=".75"/>
+  <path d="M11.5 48.5h41V51h-41z" fill="#ffffff" opacity=".45"/>
+  <circle cx="32" cy="11.5" r="3.2" fill="#fcd34d"/>
+</svg>

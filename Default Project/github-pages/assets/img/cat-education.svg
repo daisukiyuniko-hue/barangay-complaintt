@@ -1,0 +1,9 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" role="img" aria-label="Education and youth">
+  <rect width="48" height="48" rx="11" fill="#e6f4ee"/>
+  <rect x="0.75" y="0.75" width="46.5" height="46.5" rx="10.5" fill="none" stroke="#b8e2d0" stroke-width="1.5"/>
+  <path d="M8 14c6-3 11-3 16 1 5-4 10-4 16-1v20c-6-3-11-3-16 1-5-4-10-4-16-1V14z" fill="#1d4ed8"/>
+  <path d="M24 15v20" stroke="#93c5fd" stroke-width="2"/>
+  <path d="M8 14c6-3 11-3 16 1 5-4 10-4 16-1" stroke="#1e3a8a" stroke-width="1.8" fill="none"/>
+  <path d="M14 24c2.5-1 4.5-1 6.5 0M27.5 24c2.5-1 4.5-1 6.5 0" stroke="#dbeafe" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M24 4l10 4-10 4-10-4 10-4z" fill="#0f172a"/>
+</svg>

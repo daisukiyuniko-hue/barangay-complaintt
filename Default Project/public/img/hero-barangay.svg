@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 420" width="560" height="420" role="img"
+     aria-label="Illustration of the Barangay Hall with residents reporting a concern">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dff3ea"/>
+      <stop offset="1" stop-color="#f4fbf7"/>
+    </linearGradient>
+    <linearGradient id="roof" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#17694c"/>
+      <stop offset="1" stop-color="#0b3d2e"/>
+    </linearGradient>
+    <linearGradient id="road" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9aa8b4"/>
+      <stop offset="1" stop-color="#7d8b98"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="560" height="420" rx="18" fill="url(#sky)"/>
+
+  <!-- sun -->
+  <circle cx="474" cy="66" r="30" fill="#fcd34d" opacity=".85"/>
+  <circle cx="474" cy="66" r="44" fill="#fcd34d" opacity=".18"/>
+
+  <!-- clouds -->
+  <g fill="#ffffff" opacity=".85">
+    <ellipse cx="118" cy="62" rx="34" ry="17"/>
+    <ellipse cx="146" cy="56" rx="24" ry="15"/>
+    <ellipse cx="88" cy="68" rx="20" ry="13"/>
+  </g>
+
+  <!-- distant hills -->
+  <path d="M0 232c62-40 106-46 152-20s96 22 148-4 128-26 260 22v190H0V232z" fill="#cfe7db"/>
+  <path d="M0 262c74-30 122-28 168-6s104 20 152-2 132-18 240 20v146H0V262z" fill="#b7dccb"/>
+
+  <!-- ground -->
+  <rect x="0" y="286" width="560" height="134" fill="#8fc9ac"/>
+
+  <!-- road -->
+  <path d="M0 330h560v90H0z" fill="url(#road)"/>
+  <path d="M0 372h560v6H0z" fill="#fde68a" opacity=".9"/>
+  <g fill="#ffffff" opacity=".85">
+    <rect x="44" y="336" width="46" height="6" rx="3"/>
+    <rect x="128" y="336" width="46" height="6" rx="3"/>
+    <rect x="212" y="336" width="46" height="6" rx="3"/>
+    <rect x="296" y="336" width="46" height="6" rx="3"/>
+    <rect x="380" y="336" width="46" height="6" rx="3"/>
+    <rect x="464" y="336" width="46" height="6" rx="3"/>
+  </g>
+
+  <!-- barangay hall -->
+  <g>
+    <rect x="52" y="196" width="196" height="102" fill="#fdf6e9" stroke="#cbb894" stroke-width="2"/>
+    <path d="M40 200 150 148l110 52H40z" fill="url(#roof)"/>
+    <rect x="46" y="200" width="208" height="9" fill="#0b3d2e" opacity=".85"/>
+    <!-- windows -->
+    <g fill="#bfe6f5" stroke="#5f9c8f" stroke-width="1.6">
+      <rect x="70" y="222" width="34" height="30" rx="2"/>
+      <rect x="118" y="222" width="34" height="30" rx="2"/>
+      <rect x="186" y="222" width="34" height="30" rx="2"/>
+    </g>
+    <g stroke="#5f9c8f" stroke-width="1.2">
+      <path d="M87 222v30M70 237h34M135 222v30M118 237h34M203 222v30M186 237h34"/>
+    </g>
+    <!-- door -->
+    <rect x="132" y="252" width="40" height="46" rx="3" fill="#1f6f8b"/>
+    <circle cx="164" cy="276" r="2.4" fill="#fcd34d"/>
+    <!-- sign -->
+    <rect x="96" y="166" width="108" height="20" rx="4" fill="#ffffff" stroke="#17694c" stroke-width="2"/>
+    <text x="150" y="181" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="700"
+          fill="#0b3d2e" text-anchor="middle">BARANGAY HALL</text>
+    <!-- flag pole + flag -->
+    <path d="M262 196V140" stroke="#9aa8b4" stroke-width="4" stroke-linecap="round"/>
+    <path d="M264 142h44l-11 12 11 12h-44z" fill="#1f8a63"/>
+  </g>
+
+  <!-- streetlight (the reported concern) -->
+  <g>
+    <path d="M356 330V232" stroke="#6b7d8c" stroke-width="7" stroke-linecap="round"/>
+    <path d="M356 232c0-20 16-30 32-30h14" stroke="#6b7d8c" stroke-width="7" fill="none" stroke-linecap="round"/>
+    <rect x="392" y="192" width="34" height="14" rx="7" fill="#cbd5e1"/>
+    <path d="M404 210v10M420 210v10" stroke="#cbd5e1" stroke-width="3"/>
+    <path d="M409 220l-40 62M409 220l40 62" stroke="#fde68a" stroke-width="9" opacity=".22"/>
+  </g>
+
+  <!-- pothole -->
+  <ellipse cx="252" cy="358" rx="30" ry="12" fill="#5f6b76"/>
+  <ellipse cx="252" cy="356" rx="24" ry="8" fill="#414c56"/>
+  <path d="M228 362c14 8 40 8 52-2" stroke="#5f6b76" stroke-width="3" fill="none" stroke-dasharray="6 5"/>
+
+  <!-- resident reporting (with phone) -->
+  <g transform="translate(300 236)">
+    <ellipse cx="0" cy="94" rx="22" ry="6" fill="#0b3d2e" opacity=".12"/>
+    <rect x="-13" y="34" width="26" height="60" rx="12" fill="#1d4ed8"/>
+    <circle cx="0" cy="20" r="15" fill="#f2c49b"/>
+    <path d="M-15 18a15 15 0 0 1 30 0c0-14-6-20-15-20s-15 6-15 20z" fill="#2b2118"/>
+    <!-- arm holding phone -->
+    <path d="M13 44c10-2 16-8 20-18" stroke="#f2c49b" stroke-width="7" fill="none" stroke-linecap="round"/>
+    <rect x="27" y="6" width="15" height="26" rx="3" fill="#0f172a"/>
+    <rect x="29" y="9" width="11" height="18" rx="1.5" fill="#7dd3fc"/>
+    <!-- speech bubble with check -->
+    <rect x="-52" y="-6" width="38" height="30" rx="9" fill="#ffffff"/>
+    <path d="M-52 24l-9 11 18-11z" fill="#ffffff"/>
+    <path d="M-41 9l6 6 12-13" stroke="#1f8a63" stroke-width="4" fill="none"
+          stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- barangay staff member -->
+  <g transform="translate(196 244)">
+    <ellipse cx="0" cy="86" rx="20" ry="6" fill="#0b3d2e" opacity=".12"/>
+    <rect x="-11" y="30" width="22" height="56" rx="10" fill="#0f766e"/>
+    <circle cx="0" cy="18" r="13" fill="#e8b98d"/>
+    <path d="M-13 16a13 13 0 0 1 26 0c0-12-5-17-13-17s-13 5-13 17z" fill="#1f2937"/>
+    <rect x="-6" y="46" width="12" height="9" rx="1.5" fill="#ffffff" opacity=".9"/>
+    <path d="M11 38c8 2 14 0 18-8" stroke="#e8b98d" stroke-width="6" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- trees -->
+  <g>
+    <rect x="472" y="278" width="9" height="52" rx="4" fill="#8b5e3c"/>
+    <circle cx="476" cy="268" r="26" fill="#2f8f5b"/>
+    <circle cx="458" cy="280" r="18" fill="#37a066"/>
+    <circle cx="495" cy="280" r="17" fill="#2b8053"/>
+  </g>
+  <g>
+    <rect x="30" y="286" width="8" height="44" rx="3" fill="#8b5e3c"/>
+    <circle cx="34" cy="278" r="21" fill="#2f8f5b"/>
+    <circle cx="19" cy="288" r="14" fill="#37a066"/>
+  </g>
+
+  <!-- grass tufts -->
+  <g stroke="#5fa37f" stroke-width="3" stroke-linecap="round" opacity=".8">
+    <path d="M260 322l-5-9M260 322l0-11M260 322l6-9"/>
+    <path d="M424 326l-5-9M424 326l0-11M424 326l6-9"/>
+    <path d="M96 330l-5-9M96 330l0-11M96 330l6-9"/>
+  </g>
+</svg>
